@@ -1,4 +1,4 @@
-# LLM.md - Zoo Computer
+# Zoo Computer
 
 ## Overview
 A modern ecommerce platform for purchasing AI compute hardware, featuring the DGX Spark instance ($3,999) as the only credit card purchasable item, with enterprise solutions requiring sales consultation. Operated by Zoo Labs Foundation as part of the decentralized AI compute network.
