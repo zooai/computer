@@ -1,10 +1,10 @@
 name: Docker
 
 on:
+  # Manual-only: zoo.computer ships via GitHub Pages (see pages.yml). This
+  # image build needs the private ghcr.io/hanzoai/spa base, which zooai's
+  # GITHUB_TOKEN cannot pull, so it must not gate pushes.
   workflow_dispatch:
-  push:
-    branches: [main, dev, test]
-    tags: ['v*']
 
 permissions:
   contents: read
