@@ -1,12 +1,17 @@
-<svg viewBox="0 0 67 67" xmlns="http://www.w3.org/2000/svg">
-  <rect width="67" height="67" fill="#000000"/>
-  <g>
-    <path d="M17 54V36.1H4V54H17Z" fill="#ffffff"/>
-    <path d="M4 36.1L17 37.6V36.1H4Z" fill="#DDDDDD" opacity="0.7"/>
-    <path d="M53.6 17.4H17.2L4 36.1H40.3L53.6 17.4Z" fill="#ffffff"/>
-    <path d="M17 4H4V17.4H17V4Z" fill="#ffffff"/>
-    <path d="M53.6 4H40.4V17.4H53.6V4Z" fill="#ffffff"/>
-    <path d="M53.6 17.4L40.4 15.7V17.4H53.6Z" fill="#DDDDDD" opacity="0.7"/>
-    <path d="M53.6 54V36.1H40.4V54H53.6Z" fill="#ffffff"/>
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zoo">
+  <!-- Zoo iridescent disc (additive RGB Venn, white center) — matches zoo.ngo. -->
+  <defs>
+    <clipPath id="zf-disc"><circle cx="512" cy="511" r="500"/></clipPath>
+    <clipPath id="zf-top"><circle cx="512" cy="250" r="430"/></clipPath>
+    <clipPath id="zf-ll"><circle cx="240" cy="670" r="430"/></clipPath>
+  </defs>
+  <g clip-path="url(#zf-disc)">
+    <circle cx="512" cy="250" r="430" fill="#00A652"/>
+    <circle cx="240" cy="670" r="430" fill="#ED1C24"/>
+    <circle cx="784" cy="670" r="430" fill="#2E3192"/>
+    <g clip-path="url(#zf-top)"><circle cx="240" cy="670" r="430" fill="#FCF006"/></g>
+    <g clip-path="url(#zf-top)"><circle cx="784" cy="670" r="430" fill="#01ACF1"/></g>
+    <g clip-path="url(#zf-ll)"><circle cx="784" cy="670" r="430" fill="#EA018E"/></g>
+    <g clip-path="url(#zf-top)"><g clip-path="url(#zf-ll)"><circle cx="784" cy="670" r="430" fill="#FFFFFF"/></g></g>
   </g>
 </svg>

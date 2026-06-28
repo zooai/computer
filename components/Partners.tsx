@@ -3,7 +3,7 @@ import React from 'react';
 
 const ZooLabsLogo = () => (
     <div className="flex items-center space-x-3">
-        <img src="/hanzo-h-white.svg" alt="Zoo" className="h-10 w-auto" />
+        <img src="/zoo-disc.svg" alt="Zoo Labs" className="h-10 w-auto" />
         <span className="text-3xl font-bold text-white">Zoo Labs</span>
     </div>
 );

@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-6 leading-tight">
                 AI Supercomputing 
-                <span className="block bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
+                <span className="block bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-dark">
                 On Your Terms
                 </span>
             </h1>
