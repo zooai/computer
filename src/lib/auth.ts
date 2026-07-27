@@ -11,7 +11,7 @@ const REDIRECT_URI = `${window.location.origin}/auth/callback`
 
 const AUTHORIZE_URL = `${IAM_URL}/oauth/authorize`
 const TOKEN_URL = `${IAM_URL}/oauth/token`
-const USERINFO_URL = `${IAM_URL}/api/userinfo`
+const USERINFO_URL = `${IAM_URL}/v1/iam/userinfo`
 
 // ---------------------------------------------------------------------------
 // Re-exported data types (unchanged from supabase.ts)
