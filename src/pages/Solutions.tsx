@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import UseCases from '../../components/UseCases';
 import WhyBuyHardware from '../../components/WhyBuyHardware';
-import Testimonials from '../../components/Testimonials';
 import TrustSecurity from '../../components/TrustSecurity';
 import IndustrySolutions from '../../components/IndustrySolutions';
 
@@ -35,9 +34,6 @@ const Solutions: React.FC = () => {
 
       {/* Why Buy vs. Rent/Co-locate */}
       <WhyBuyHardware />
-
-      {/* Customer Stories */}
-      <Testimonials />
 
       {/* Trust & Security */}
       <TrustSecurity />

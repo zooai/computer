@@ -11,7 +11,6 @@ import Pricing from './components/Pricing';
 import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
 import ImageGallery from './components/ImageGallery';
-import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import TrustSecurity from './components/TrustSecurity';
 import WhyBuyHardware from './components/WhyBuyHardware';
