@@ -30,7 +30,7 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "26.4.0",
     "@vercel/node": "^10.0.0",
-    "@vitejs/plugin-react": "^6.1.1",
+    "@vitejs/plugin-react": "^6.0.2",
     "autoprefixer": "^10.5.4",
     "jest": "^30.5.0",
     "node-mocks-http": "^1.18.1",
