@@ -1,5 +1,7 @@
 # Zoo.Computer - AI Hardware Marketplace
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/computer&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/computer&ref=main&action=edit) [![Deploy with Hanzo](https://hanzo.app/badges/deploy-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/computer&ref=main&action=deploy)
+
 A modern ecommerce platform for purchasing AI compute hardware, featuring the DGX Spark instance ($4,000) as the only credit card purchasable item, with enterprise solutions requiring sales consultation.
 
 ## Features
